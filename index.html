@@ -9,15 +9,23 @@
 <body>
     <header>
         <h1>ようこそ！</h1>
-        <p>これはGitHub Pagesでホストされたサンプルページです。</p>
+        <p>GitHub Pagesを使った簡単なWebページ</p>
     </header>
+
     <main>
-        <button id="changeText">テキストを変更</button>
-        <p id="text">このテキストが変更されます。</p>
+        <section class="card">
+            <h2>自己紹介</h2>
+            <p id="introText">ここに自己紹介を書いてください。</p>
+            <input type="text" id="nameInput" placeholder="名前を入力">
+            <textarea id="bioInput" placeholder="簡単な自己紹介を書いてください"></textarea>
+            <button id="updateIntro">更新</button>
+        </section>
     </main>
+
     <footer>
-        <p>&copy; 2025 私のホームページ</p>
+        <p>&copy; 2025 あなたの名前</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
